@@ -10,8 +10,8 @@ export default function Post({ post, site }) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>{ post.title }</title>
-        <meta name="description" content={`Read more about ${post.title} on ${site.title}`} />
+        <title>{ post.seo.title }</title>
+        <meta name="description" content={post.seo.metaDesc} />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -54,6 +54,10 @@ export async function getStaticProps({ params = {} } = {}) {
           content
           title
           slug
+          seo {
+            metaDesc
+            title
+          }
         }
       }
     `,
