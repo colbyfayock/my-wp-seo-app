@@ -1,19 +1,17 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import { gql } from '@apollo/client';
+import parse from 'html-react-parser';
 
 import { getApolloClient } from 'lib/apollo-client';
 
 import styles from '../../styles/Home.module.css'
 
 export default function Post({ post, site }) {
+  const fullHead = parse(post.seo.fullHead);
   return (
     <div className={styles.container}>
-      <Head>
-        <title>{ post.seo.title }</title>
-        <meta name="description" content={post.seo.metaDesc} />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <Head>{ fullHead }</Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
@@ -57,6 +55,7 @@ export async function getStaticProps({ params = {} } = {}) {
           seo {
             metaDesc
             title
+            fullHead
           }
         }
       }
