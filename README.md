@@ -2,6 +2,8 @@
 
 Demo for tutorial [How to Manage SEO in Headless WordPress with Yoast SEO and WPGraphQL](https://www.youtube.com/watch?v=fb8Twa02aww)
 
+🚀 See Demo: https://my-wp-seo-app.netlify.app/
+
 📝 Article: https://spacejelly.dev/posts/how-to-manage-seo-in-headless-wordpress-with-yoast-seo-and-wpgraphql/
 
 📺 YouTube: https://www.youtube.com/watch?v=fb8Twa02aww
