@@ -1,6 +1,6 @@
 # Managing SEO in Headless WordPress with WPGraphQL & Yoast SEO
 
-Demo for tutorial [How to Manage SEO in Headless WordPress with Yoast SEO and WPGraphQL](https://spacejelly.dev/posts/how-to-manage-seo-in-headless-wordpress-with-yoast-seo-and-wpgraphql/)
+Demo for tutorial [How to Manage SEO in Headless WordPress with Yoast SEO and WPGraphQL](https://www.youtube.com/watch?v=fb8Twa02aww)
 
 📝 Article: https://spacejelly.dev/posts/how-to-manage-seo-in-headless-wordpress-with-yoast-seo-and-wpgraphql/
 
